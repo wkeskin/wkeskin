@@ -1,0 +1,15 @@
+#wrapper{background-color: #FFFFFF; width: 80%; min-width: 960px; max-width: 2048px; margin: 0 auto;
+    box-shadow: 3px 3px 3px #333333;}
+.title{font-size: 50px;color: #FFFFFF; font-weight: bold; mix-blend-mode: multiply; text-align: center; letter-spacing: 5px;margin-top: 150px;}
+#highlight{position:relative;margin:0.1em;}
+#highlight:before{content:""; z-index:-1; left:-0.5em; top:0.1em; border-width:0.5em; border-style:solid; border-color:rgb(231, 141, 62);
+  position:absolute; width:100%; border-left-color:transparent; border-right-color:transparent;}
+body {background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-happy-school-season-theme-background-image_199434.jpg);}
+table{border-collapse: collapse;margin-left: auto; margin-right: auto; width: 90%}
+td, th { border: 1px solid #2ab1ac; text-align: justify; padding: 8px;}
+tr:nth-child(even) {background-color: #c7e5e4;}
+footer{text-align: center;}
+label{float: left;display: block;text-align: right;width: 200px;padding-right: 20px;margin-left: 25px ;}
+input{display: block;margin-bottom: 5 px; margin-left: 25px}
+input[type="button"]{margin-left: 245px;}
+button{margin-left: 245px;}
