@@ -1,0 +1,52 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  position: relative;
+  display: block;
+  border: 2px solid black;
+  margin: 20px auto;
+  max-width: 100%;
+  background-image: url('https://www.homefortheharvest.com/wp-content/uploads/2022/06/Transplanting-Hostas-600x429.jpg');
+  background-size: cover;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#gameCanvas + div {
+  position: absolute; 
+  z-index: 1;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center; /* Center align the content */
+}
